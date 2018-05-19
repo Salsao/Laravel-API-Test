@@ -52,7 +52,7 @@ POST* api/matches/{id}
 **Delete one match:**
 DELETE api/matches/{id}
 
-* It's back-end only, so I had to do it POST instead of PUT/PATCH. [How to make PUT/PATCH work with front-end](https://laravel.com/docs/5.2/routing#form-method-spoofing).
+`*` It's back-end only, so I had to do it POST instead of PUT/PATCH. [How to make PUT/PATCH work with front-end](https://laravel.com/docs/5.2/routing#form-method-spoofing).
 
 ## Built With
 
