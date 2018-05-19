@@ -8,7 +8,8 @@ use Illuminate\Support\Facades\Validator;
 
 class MatchController extends Controller
 {
-    private function errorMessage($message) {
+    private function errorMessage($message)
+    {
         return response()->json(array(
                 'status' => 'error',
                 'message' => $message
